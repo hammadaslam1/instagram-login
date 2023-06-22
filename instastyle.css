@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+
+
+
+.headers{
+    height: 70px;
+}
+
+.content{
+    display: flex;
+}
+.pic{
+    display: flex;
+    width: 400px;
+}
+
+@media screen and (max-width: 780px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pic{
+        display: none;
+    }
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.picture-1{
+    width: 280px;
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.picture{
+    width: 300px;
+    margin-left: -300px;
+}
+
+.form{
+    flex: 1;
+    display: flex;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login{
+    width: 300px;
+    margin: 5px;
+    padding: 35px;
+    padding-bottom: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signup{
+    text-align: center;
+    margin: 5px;
+    width: 300px;
+    padding: 20px 35px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.signup a{
+    color: #0095f7;
+    font-weight: 600;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: #fafafa;
+}
+
+
+
+button{
+    padding: 08px;
+    margin: 09px 0;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #0380d3;
+}
+
+.in-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.line{
+    width: 120px;
+    margin-top: 5px;
+    border-top: 1px solid darkgray;
+}
+
+
+.icon{
+    width: 18px;
+    margin-right: 10px;
+}
+
+.text-logo{
+    width: 200px;
+    align-self: center;
+    margin-bottom: 35px;
+}
+.fb-login, .forgot{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+a{
+    color: #3b5998;
+    text-decoration: none;
+
+}
+
+.forgot a{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+.app{
+    font-size: 14px;
+}
+
+.store{
+    margin: 20px;
+}
+
+.store img{
+    height: 40px;
+}
+
+
+@media screen and (max-width: 410px){
+    .login, .signup{
+        border: none;
+    }
+}
